@@ -97,6 +97,14 @@ header {
     background-color: #dddddd;
 }
 
+.section8 {
+    background-color: #b7b7b7;
+}
+
+.section9 {
+    background-color: #dddddd;
+}
+
 .section6 img {
     width: 15%;
 }
@@ -190,6 +198,11 @@ footer span {
     background-image: url("../images/439.jpeg");
     grid-column: 3 / 4;
     grid-row: 5 / 7;
+}
+
+.i1 img, .i2 img, .i3 img, .i4 img, .i5 img, .i6 img, .i7 img {
+    width: 100%;
+    height: auto;
 }
 
 header nav p {
