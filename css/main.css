@@ -18,6 +18,57 @@ header {
     padding-bottom: 250px;
 }
 
+header nav p {
+    height: 80px;
+    font-size: 44px;
+}
+
+header .titre {
+    margin-top: 200px;
+}
+
+header nav img {
+    width: 200px;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+header strong {
+    font-size: 6em;
+}
+
+.button1 {
+    background-color: rgb(48, 214, 214);
+    padding: 10px;
+    border: none;
+}
+
+.button2 {
+    background-color: rgb(243, 34, 100);
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1.75em;
+}
+
+.navbar button {
+    border: none;
+    font-size: 2em;
+}
+
+.offcanvas-body {
+    background-color: #383939;
+    padding: 0;
+    box-shadow: inset -6px 0 4px 2px rgb(39, 39, 39);
+}
+
+.nav-item {
+    border-top: 0.4px solid rgb(85, 85, 85);
+    border-bottom: 0.4px solid rgba(26, 25, 25, 0.2);
+}
+
 .section1, .section3 {
     color: rgb(82, 80, 80)
 }
@@ -97,16 +148,9 @@ header {
     background-color: #dddddd;
 }
 
-.section8 {
-    background-color: #b7b7b7;
-}
-
-.section9 {
-    background-color: #dddddd;
-}
-
 .section6 img {
-    width: 15%;
+    width: 100px;
+    height: auto;
 }
 
 .section7 {
@@ -200,71 +244,7 @@ footer span {
     grid-row: 5 / 7;
 }
 
-.i1 img, .i2 img, .i3 img, .i4 img, .i5 img, .i6 img, .i7 img {
-    width: 100%;
-    height: auto;
-}
-
-header nav p {
-    height: 80px;
-    font-size: 44px;
-}
-
-header .titre {
-    margin-top: 200px;
-}
-
-header nav img {
-    width: 200px;
-}
-
-header h1 {
-    font-size: 4em;
-}
-
-header strong {
-    font-size: 6em;
-}
-
-.button1 {
-    background-color: rgb(48, 214, 214);
-    padding: 10px;
-    border: none;
-}
-
-.button2 {
-    background-color: rgb(243, 34, 100);
-    padding: 10px;
-    border: none;
-    color: white;
-    font-size: 1.75em;
-}
-
-.navbar button {
-    border: none;
-    font-size: 2em;
-}
-
-.offcanvas-body {
-    background-color: #383939;
-    padding: 0;
-    box-shadow: inset -6px 0 4px 2px rgb(39, 39, 39);
-}
-
-.nav-item {
-    border-top: 0.4px solid rgb(85, 85, 85);
-    border-bottom: 0.4px solid rgba(26, 25, 25, 0.2);
-}
-
 @media (max-width: 1199px) {
-    header nav p {
-        height: 158px;
-        font-size: 85px;
-    }
-
-    header nav img {
-        width: 400px;
-    }
 
     .section2 article {
         width: 100%;
@@ -297,12 +277,12 @@ header strong {
 
 @media (max-width: 991px) {
     header nav p {
-        height: 80px;
-        font-size: 44px;
+        height: 60px;
+        font-size: 34px;
     }
 
     header nav img {
-        width: 200px;
+        width: 150px;
     }
 
     .grille {
@@ -350,5 +330,21 @@ header strong {
 }
 
 @media (max-width: 767px) {
-    
+
+    header {
+        padding-bottom: 100px;
+    }
+
+    header .titre {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header strong {
+        font-size: 4em;
+    }
 }
